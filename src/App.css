@@ -52,7 +52,7 @@ body {
 .card-container {
   display:flex;
   flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
   width: 100%;
   height: auto;
   background-color: var(--primary);
@@ -62,7 +62,7 @@ body {
 
 .card {
   width: 47%;
-  height: 600px;
+  height: 700px;
   background-color: var(--tertiary);
   border: 1px solid var(--tertiary);
   border-radius:10px;

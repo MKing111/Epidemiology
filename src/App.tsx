@@ -1,7 +1,7 @@
 import './App.css'
 import { BrowserRouter, Routes, Route } from "react-router";
 import { Sidebar } from './components'
-import { Home } from './pages'
+import { Dashboard } from './pages'
 
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
         <Sidebar/>
         <div className="container">
           <Routes>
-            <Route path="/" element={<Home/>} />
+            <Route path="/" element={<Dashboard/>} />
           </Routes>
         </div>
     </BrowserRouter>
